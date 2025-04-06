@@ -35,4 +35,4 @@ might help with the notation for mathematical expressions.
 
 From the code.js file, where I made some comments on the javascript in this
 exercise, we can see that this program makes three recursive calls to itself,
-in he form of '''javascript myster(n / 3)'''
+in he form of ```javascript mystery(n / 3)```
