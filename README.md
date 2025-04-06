@@ -51,7 +51,7 @@ end up with $T(n) \in O(n^5)$.
 
 ## Sources
 
-I referenced my work on an earlier assignment:
+I referenced my work on an earlier assignment for phrasing:
 https://github.com/COSC3020/divide-and-conquer-sum-Kodoka
 
 ## Plagiarism Notice
