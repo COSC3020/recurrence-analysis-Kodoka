@@ -35,4 +35,10 @@ might help with the notation for mathematical expressions.
 
 From the code.js file, where I made some comments on the javascript in this
 exercise, we can see that this program makes three recursive calls to itself,
-in he form of ```javascript mystery(n / 3)```
+in the form of "mystery(n / 3)", in which an (n / 3) subdivision of elements
+are worked on. Then we have the three for loops. The first for loop will run
+while $i < n^2$, from $i = 0$, or $n^2$ times. The second for loop will run
+while $j < n$, from $j = 0$, or $n$ times. The third for loop will run while
+$k < n^2$, from $k = 0$, or $n^2$ times. This gives a total of of $n^2 \cdot
+n \cdot n^2 = n^5$ iterations, during which count is incrimented once each
+iteration.
