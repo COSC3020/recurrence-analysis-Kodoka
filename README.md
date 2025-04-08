@@ -46,13 +46,14 @@ n \cdot n^2 = n^5$ iterations, during which count is incrimented once each
 iteration. Giving us a time complexity of $O(n^5)$.  
 
 Combining these terms we get $T(n) = 3T(\frac{n}{3}) + O(n^5)$. From here we
-can work on solving our recurrence relation, $T(n) = 3T(\frac{n}{3}) + O(n^5)$,
+can work on solving our recurrence relation, $T(n) = 3T(\frac{n}{3}) + n^5$,
 via iteration.  
 
 | K | T(n) |
 | - | ---- |
 | 1 | $T(n) = 3T(\frac{n}{3}) + n^5$ |
-| 2 | $T(n) = 3T(\frac{\frac{n}{3}}{3}) + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{3}) \cdot \frac{1}{3} + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{9} + (\frac{n}{3})^5 + n^5$ |
+| 2 | $T(n) = 3T(\frac{\frac{n}{3}}{3}) + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{3}) \cdot \frac{1}{3} + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{9}) + (\frac{n}{3})^5 + n^5$ |
+| 3 | $T(n) = 3T(\frac{n}{9}) + (\frac{n}{3})^5 + n^5 = 3
 
 ## Sources
 
