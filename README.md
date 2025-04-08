@@ -45,9 +45,14 @@ $k < n^2$, from $k = 0$, or $n^2$ times. This gives a total of of $n^2 \cdot
 n \cdot n^2 = n^5$ iterations, during which count is incrimented once each
 iteration. Giving us a time complexity of $O(n^5)$.  
 
-Combining these terms we get $T(n) = 3T(\frac{n}{3}) + O(n^5)$ for our
-recurrence relation. Not accounting for constants and lower order terms, we
-end up with $T(n) \in O(n^5)$.
+Combining these terms we get $T(n) = 3T(\frac{n}{3}) + O(n^5)$. From here we
+can work on solving our recurrence relation, $T(n) = 3T(\frac{n}{3}) + O(n^5)$,
+via substitution.  
+
+| K | T(n) |
+| - | ---- |
+| 1 | $T(n) = 3T(\frac{n}{3}) + n^5$
+| 2 | $T(n) = 3T(\frac{\frac{n}{3}}{3}) + (\frac{n}{3})^5 + n^5$
 
 ## Sources
 
