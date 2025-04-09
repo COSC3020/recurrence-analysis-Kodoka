@@ -52,7 +52,7 @@ via iteration.
 | K | T(n) |
 | - | ---- |
 | 1 | $T(n) = 3T(\frac{n}{3}) + n^5$ |
-| 2 | $T(n) = 3T(\frac{\frac{n}{3}}{3}) + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{3}) \cdot \frac{1}{3} + (\frac{n}{3})^5 + n^5 = 3T(\frac{n}{9}) + (\frac{n}{3})^5 + n^5$ |
+| 2 | $T(n) = 3(3T(\frac{n}{3^2}+ (\frac{n}{3})^5) + n^5$|
 | 3 | $T(n) = 3T(\frac{n}{9}) + (\frac{n}{3})^5 + n^5 = 3
 
 ## Sources
