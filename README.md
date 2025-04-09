@@ -65,7 +65,7 @@ $\frac{n}{3^K} = 1 \implies n = 3^K \implies \log_{3} n = K$ or $K = \log_{3} n$
 Which gives us a recursive term of:  
 $3^{\log_{3} n}T(1) = nT(1)$  
 Which gives us a summation of:  
-$n^5 \sum_{i=0}^{\log_{3} n-1} \frac{1}{3^{4i}$  
+$n^5 \sum_{i=0}^{\log_{3} n-1} \frac{1}{3^{4i}}$  
 The ratio of our geometric series is less than 1, meaning this is a finite
 geometric series, and for large values of n, its is mathematically
 negligible, thus the $n^5$ term will dominate giving us:  
