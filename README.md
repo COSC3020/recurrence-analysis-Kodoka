@@ -78,10 +78,10 @@ https://github.com/COSC3020/divide-and-conquer-sum-Kodoka
 
 I watched these three videos to help with solving the recurrence relation via
 iteration. Namely a refresher on how to iteratively substitute, then how to
-solve the recurrence once a pattern is found.
+solve the recurrence once a pattern is found.  
 https://www.youtube.com/watch?v=Ob8SM0fz6p0  
-https://www.youtube.com/watch?v=honkPbYEc7Q
-https://www.youtube.com/watch?v=zVeNqLg2uUc
+https://www.youtube.com/watch?v=honkPbYEc7Q  
+https://www.youtube.com/watch?v=zVeNqLg2uUc  
 
 ## Plagiarism Notice
 
