@@ -76,6 +76,13 @@ $T(n) \in O(n^5)$
 I referenced my work on an earlier assignment for phrasing:
 https://github.com/COSC3020/divide-and-conquer-sum-Kodoka
 
+I watched these three videos to help with solving the recurrence relation via
+iteration. Namely a refresher on how to iteratively substitute, then how to
+solve the recurrence once a pattern is found.
+https://www.youtube.com/watch?v=Ob8SM0fz6p0  
+https://www.youtube.com/watch?v=honkPbYEc7Q
+https://www.youtube.com/watch?v=zVeNqLg2uUc
+
 ## Plagiarism Notice
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
