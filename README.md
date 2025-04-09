@@ -59,7 +59,7 @@ via iteration.
 From the table above, after several iterations, we can see a pattern forming:  
 $T(n) = 3^KT(\frac{n}{3^K}) + [\frac{n^5}{3^{4(K-1)}} + \frac{n^5}{3^{4(K-2)}} + ... + \frac{n^5}{3^4} + n^5]$  
 Or generally, after K iterations:  
-$T(n) = 3^KT(\frac{n}{3^K}) + n^5 \[ \sum_{i=0}^{K-1} \frac{1}{3^{4i} \]$
+$T(n) = 3^KT(\frac{n}{3^K}) + n^5 \[ \sum_{i=0}^{K-1} \frac{1}{3^{4i}} \]$
 
 
 ## Sources
